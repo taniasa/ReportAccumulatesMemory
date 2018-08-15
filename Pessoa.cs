@@ -38,7 +38,7 @@ namespace HTML_Samples
         private static List<Endereco> BuscarEndereco(int pessoa)
         {
             var enderecos = new List<Endereco>();
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 5; i++)
             {
                 enderecos.Add(new Endereco()
                 {
